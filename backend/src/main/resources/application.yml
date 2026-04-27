@@ -1,0 +1,14 @@
+server:
+  port: 8004
+
+spring:
+  application:
+    name: library-system
+
+library:
+  config:
+    max-borrow-days: 30
+    max-renew-days: 15
+    daily-fine: 1.0
+    max-fine-days: 7
+    max-overdue-times: 3
